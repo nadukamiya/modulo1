@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+header{
+    height: 200px;
+    width: 100vw;
+    margin:0;
+    background-color: yellowgreen;
+    border-bottom: black solid 20px;
+}
+
+header h1{
+    position: relative;
+    margin:0;
+    color: white;
+    padding-top: 80px;
+    padding-left: 180px;
+    font-size: 40px;
+}
+
+.conteiner{
+    height: 450px;
+    width: 100vw;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 0px;
+    position: relative;
+    background-image: url("../img/6471.jpg");
+    margin-bottom: 100px;
+}
+
+.conteiner h2{
+    color: white;
+    text-align: center;
+    position: relative;
+    top:450px;
+    padding: 10px;
+    background-color: black;
+} 
+
+.logo img{
+    position: absolute;
+    height: 125px;
+    width: 125px;
+    top: 3vh;
+    left: 2vw;
+}
+
+nav{
+    width: 530px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    float: left;
+    position: absolute;
+    top: 60px;
+    left: 1350px;
+    padding: 20px;
+}
+
+nav a{
+    display: inline;
+    margin-right: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+
+}
+
+main {
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-bottom: 300px;
+
+}
+
+main h3{
+          margin: 20px;
+}
+
+.pagactual{
+        text-decoration: underline;
+}
+
+.text{
+    
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-bottom: 300px;
+    font-size: 20px;
+    font-family: Tahoma, Geneva, sans-serif;
+
+}
+
+#container{
+    display: grid;
+    height: 1240px;
+    width: 100vw;
+    grid-template-columns: repeat(3,400px);
+    grid-template-rows: repeat(3,400px);
+    grid-gap: 10px; 
+    margin-top: 200px;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+}
+
+#container div{
+    height: 400px ;
+    width: 400px;
+    overflow: hidden;
+
+}
+
+#container div img{
+    width: 100%;
+    height: auto;
+}
+#container div:hover{
+    box-shadow: gray 5px 5px;
+}
